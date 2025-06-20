@@ -1,5 +1,6 @@
 #include "ofMain.h"
 #include "ofApp.h"
+#include "spdlog/spdlog.h"
 
 //========================================================================
 int main( ){
@@ -10,7 +11,7 @@ int main( ){
 	settings.windowMode = OF_WINDOW; //can also be OF_FULLSCREEN
 
 	auto window = ofCreateWindow(settings);
-
+	spdlog::info("Hello, {}!", "World");
 	ofRunApp(window, std::make_shared<ofApp>());
 	ofRunMainLoop();
 
