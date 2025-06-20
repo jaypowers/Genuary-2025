@@ -11,7 +11,7 @@ int main( ){
 	settings.windowMode = OF_WINDOW; //can also be OF_FULLSCREEN
 
 	auto window = ofCreateWindow(settings);
-	spdlog::info("Hello, {}!", "World");
+	//spdlog::info("Hello, {}!", "World");
 	ofRunApp(window, std::make_shared<ofApp>());
 	ofRunMainLoop();
 

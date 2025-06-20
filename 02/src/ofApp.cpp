@@ -6,6 +6,7 @@ void ofApp::setup() {
 	ofSetRandomSeed(ofGetElapsedTimeMillis()); // Seed the random number generator
 	ofSetFrameRate(3);
 	ofSetRectMode(OF_RECTMODE_CENTER);
+	ofSetWindowTitle("Genuary 2025 - 02");
 }
 
 //--------------------------------------------------------------
